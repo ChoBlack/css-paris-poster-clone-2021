@@ -1,0 +1,26 @@
+.father {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 50vh;
+}
+
+.child1 {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+}
+.child2 {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+}
+.child3 {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
