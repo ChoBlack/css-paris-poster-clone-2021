@@ -11,13 +11,18 @@ body {
 header {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
   border-bottom: 2px solid black;
 }
 
-.titlefather {
+#info {
   display: flex;
   justify-content: space-between;
-  border-bottom: 2px solid black;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 #paris-text {
